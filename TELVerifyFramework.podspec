@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.description  = "Description"
   s.homepage     = "https://www.sendit.asia/th/"
   s.author       = { "iAmSnow" => "sarawoot_khu@true-e-logistics.com" }
-  s.source       = { :git => "https://github.com/iAmSnow/TELVerifyFramework.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/iAmSnow/TELVerifyFramework/1.0.0/TELVerifyFramework.zip" }
   s.license      = "MIT"
   s.platform     = :ios, "10.0"
   s.dependency "Moya"
