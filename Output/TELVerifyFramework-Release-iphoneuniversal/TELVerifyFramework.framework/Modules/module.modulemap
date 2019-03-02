@@ -1,0 +1,11 @@
+framework module TELVerifyFramework {
+  umbrella header "TELVerifyFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module TELVerifyFramework.Swift {
+    header "TELVerifyFramework-Swift.h"
+    requires objc
+}
